@@ -8,13 +8,13 @@ class HotelFormatter:
             if hotel_info['reviews'] 
             else "No reviews available."
         )
-        
+        # Return the formatted string with the hotel name, location, description, and review
         return f""" 
 🏨 {hotel_info['name']}
 
 📍 Location: {hotel_info['address']}
 
-📝 Description: {hotel_info['description']}
+📝 Description: {hotel_info['description']} 
 
 🛎️ Guest Review: {review_text}
 """ 
