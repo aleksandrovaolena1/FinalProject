@@ -4,6 +4,7 @@ class TelegramBot:
     def __init__(self, token):
         self.token = token
         self.base_url = f"https://api.telegram.org/bot{token}"
+        
 
     def send_photo_and_text(self, chat_id, photo_url, text):
         max_caption_length = 1024
