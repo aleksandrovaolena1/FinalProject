@@ -92,6 +92,15 @@ The application will send a formatted message to your Telegram channel with the 
 - **`telegram_bot.py`**: Contains the `TelegramBot` class, responsible for sending formatted hotel information and images to a specified Telegram channel.
 - **`README.md`**: The documentation file that provides an overview of the project, its purpose, features, and instructions for setup and usage.
 
+## 📚 References and Literature
+- **Python Official Documentation**: [https://docs.python.org/3/](https://docs.python.org/3/)
+- **Google Maps API Documentation**: [https://developers.google.com/maps/documentation/places/web-service/overview](https://developers.google.com/maps/documentation/places/web-service/overview)
+- **Requests Library Documentation**: [https://docs.python-requests.org/en/latest/](https://docs.python-requests.org/en/latest/)
+- **Telegram Bot API Documentation**: [https://core.telegram.org/bots/api](https://core.telegram.org/bots/api)
+
+### AI Assistance
+
+Parts of this project were assisted by ChatGPT to expedite code development and optimize algorithms.
 
 
 
